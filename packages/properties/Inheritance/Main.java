@@ -1,7 +1,7 @@
 package packages.properties.Inheritance;
 
 public class Main {
-    static void main() {
+    public static void main() {
 //        Box box1 = new Box(4);
 //        Box box2 = new Box(box1);
 //
