@@ -10,5 +10,9 @@ public class Main {
         shapes.area();
         circle.area();
         square.area();
+
+//        Numbers obj = new Numbers();
+//        obj.sum(1,2);
+//        obj.sum(2,3,4);
     }
 }

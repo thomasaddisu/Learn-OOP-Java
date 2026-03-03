@@ -2,6 +2,9 @@ package packages.properties.Inheritance;
 
 public class Main {
     public static void main() {
+
+
+
 //        Box box1 = new Box(4);
 //        Box box2 = new Box(box1);
 //
@@ -14,6 +17,9 @@ public class Main {
 //        System.out.println(boxWeight.l + " " + boxWeight.w +" " + boxWeight.h + ' ' + boxWeight.weight);
 
         Box box5 = new BoxWeight(1,2,3,4);
+        Box box4 = new Box();
+        Box box6 = new Box(4,5,7);
+
         System.out.println(box5.l + " " + box5.w);
 
 //        BoxWeight box6 = new Box(1,2,3); we can't do it
