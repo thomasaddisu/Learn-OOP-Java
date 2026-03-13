@@ -1,6 +1,15 @@
 package packages.properties.abstractDemo;
 
 public  class Son extends Parent{
+
+    public Son(int age){
+        super(age);
+//        this.age = age;
+    }
+
+
+
+
     @Override
     void carrer(String name) {
         System.out.println("I am going to be a "+ name);
